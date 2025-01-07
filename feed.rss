@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>security-and-compliance - GitHub Changelog</title>
+	<atom:link href="https://github.blog/changelog/label/security-and-compliance/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.blog/changelog/label/security-and-compliance/</link>
+	<description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description>
+	<lastBuildDate>Fri, 20 Dec 2024 19:19:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+
+<image>
+	<url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url>
+	<title>security-and-compliance - GitHub Changelog</title>
+	<link>https://github.blog/changelog/label/security-and-compliance/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">153214340</site>	<item>
+		<title>Audit log and webhook events for secret scan completions</title>
+		<link>https://github.blog/changelog/2024-12-20-audit-log-and-webhook-events-for-secret-scan-completions</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Fri, 20 Dec 2024 19:19:20 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-20-audit-log-and-webhook-events-for-secret-scan-completions</guid>
+
+					<description><![CDATA[<p>Audit log and webhook events for secret scan completions</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-20-audit-log-and-webhook-events-for-secret-scan-completions">Audit log and webhook events for secret scan completions</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>To enhance auditing and troubleshooting, we’ve introduced new <a href="https://docs.github.com/en/enterprise-cloud@latest/webhooks/webhook-events-and-payloads#secret_scanning_scan">webhook</a> and <a href="https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/audit-log-events-for-your-organization#secret_scanning_scan">audit log</a> events to track the completion of certain secret backfill scans on repositories.</p>
+<p>The events specify the type of backfill scan completed (e.g., Git backfill or issues backfill) and the secret types scanned, including custom patterns. Note that secrets detected through Copilot Secret Scanning are not included.</p>
+<p>Backfill scans cover the entire repository and occur when secret scanning is enabled or patterns are updated. These events do not include information on incremental scans, which focus on new content pushed to a repository.</p>
+<p>A repository must have a GitHub Advanced Security license to access these events.</p>
+<p>Learn more about how to <a href="https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning">secure your repositories with secret scanning</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-20-audit-log-and-webhook-events-for-secret-scan-completions">Audit log and webhook events for secret scan completions</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81778</post-id>	</item>
+		<item>
+		<title>Organization Private Registry Configuration for Java and C# CodeQL Scans</title>
+		<link>https://github.blog/changelog/2024-12-18-organization-private-registry-configuration-for-java-and-c-codeql-scans</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 20:34:08 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-18-organization-private-registry-configuration-for-java-and-c-codeql-scans</guid>
+
+					<description><![CDATA[<p>Organization Private Registry Configuration for Java and C# CodeQL Scans</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-18-organization-private-registry-configuration-for-java-and-c-codeql-scans">Organization Private Registry Configuration for Java and C# CodeQL Scans</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>CodeQL <code>build-mode: none</code> scans can now access private dependencies stored in private registries (e.g. Artifactory) for Java and C# projects. This makes your scans more comprehensive, ensuring you receive all important alerts regardless of where your dependencies are stored.</p>
+<p>Previously, <code>build-mode: none</code> code scans with the default setup were unable to fetch code for dependent packages stored in private registries, which could result in incomplete analysis. Now, organization administrators can <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/securing-your-organization/enabling-security-features-in-your-organization/giving-org-access-private-registries">configure access credentials</a> for private registries at the organization level. This enhancement allows CodeQL scans in child repositories to retrieve all necessary dependencies, enabling comprehensive code analysis when using the code scanning default setup.</p>
+<p>This feature is currently in public preview for GitHub Advanced Security customers.</p>
+<ul>
+<li><a href="https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql">Learn more about CodeQL.</a></li>
+<li><a href="https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning#about-default-setup">Learn more about code scanning default setup.</a></li>
+<li><a href="https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages#about-build-mode-none-for-codeql">Learn more about code scanning <code>build-mode: none</code>.</a></li>
+</ul>
+<p>The post <a href="https://github.blog/changelog/2024-12-18-organization-private-registry-configuration-for-java-and-c-codeql-scans">Organization Private Registry Configuration for Java and C# CodeQL Scans</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81724</post-id>	</item>
+		<item>
+		<title>Improved filtering for secret scanning alerts</title>
+		<link>https://github.blog/changelog/2024-12-17-improved-filtering-for-secret-scanning-alerts</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 00:24:43 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-17-improved-filtering-for-secret-scanning-alerts</guid>
+
+					<description><![CDATA[<p>Improved filtering for secret scanning alerts</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-17-improved-filtering-for-secret-scanning-alerts">Improved filtering for secret scanning alerts</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>You can now more easily filter secret scanning alerts, with new filter options and advanced filtering.</p>
+<ul>
+<li>Enterprise and organization level list views now include a new menu with commonly used and suggested filter options, like bypassed secrets, publicly leaked secrets, and those with enterprise duplicates. The repository level list view now supports a new &#8220;advanced filtering&#8221; menu.</li>
+<li>The experimental toggle has been removed from the alert list header UI, but you can still access it from the sidebar navigation menu and with the <code>results:experimental</code> filter.</li>
+<li>Public leak and multi-repository indicators are fully supported across list views, including alert list views and the <a href="https://docs.github.com/en/enterprise-cloud@latest/rest/secret-scanning/secret-scanning?apiVersion=2022-11-28">REST API</a>. In the UI, in addition to menu options, you can access these filters with <code>is:multi-repository</code> and <code>is:publicly-leaked</code>. These indicators are also included in <a href="https://docs.github.com/en/enterprise-cloud@latest/webhooks/webhook-events-and-payloads#secret_scanning_alert">webhook</a> and <a href="https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/audit-log-events-for-your-organization#secret_scanning_alert">audit log event</a> payloads for secret scanning alerts.</li>
+</ul>
+<h3 id="what-are-public-leak-and-multi-repo-labels">What are public leak and multi-repo labels?<a href="#what-are-public-leak-and-multi-repo-labels" class="heading-link pl-2 text-italic text-bold" aria-label="What are public leak and multi-repo labels?"></a></h3>
+<p>To help you triage and remediate secret leaks more effectively, GitHub secret scanning now indicates if a secret detected in your repository has also leaked publicly with a <code>public leak</code> label on the alert. The alert also indicates if the secret was exposed in other repositories across your organization or enterprise with a <code>multi-repository</code> label.</p>
+<p>These labels provide additional understanding into the distribution of an exposed secret, while also making it easier to assess an alert&#8217;s risk and urgency. For example, a secret which has a known associated exposure in a public location has a higher likelihood of exploitation. Detection of public leaks is only currently supported for <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/introduction/supported-secret-scanning-patterns#default-patterns">provider-based patterns</a>.</p>
+<p>The <code>multi-repository</code> label makes it easier to de-duplicate alerts and is supported for all secret types, including <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/defining-custom-patterns-for-secret-scanning">custom patterns</a>. You can only view and navigate to other enterprise repositories with duplicate alerts if you have appropriate permissions to view them.</p>
+<p>Both indicators currently apply only for newly created alerts.</p>
+<h3 id="learn-more">Learn more<a href="#learn-more" class="heading-link pl-2 text-italic text-bold" aria-label="Learn more"></a></h3>
+<p>Learn more about <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/managing-alerts-from-secret-scanning/evaluating-alerts#reviewing-alert-labels">reviewing alert labels</a> and how to <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/about-secret-scanning">secure your repositories with secret scanning</a>. Let us know what you think by participating in our <a href="https://github.com/orgs/community/discussions/141497">GitHub community discussion</a> or signing up for a <a href="https://github.com/orgs/community/discussions/141497#:~:text=60%20minute%20feedback%20session">60 minute feedback session</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-17-improved-filtering-for-secret-scanning-alerts">Improved filtering for secret scanning alerts</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81700</post-id>	</item>
+		<item>
+		<title>Find and fix Actions workflows vulnerabilities with CodeQL (Public Preview)</title>
+		<link>https://github.blog/changelog/2024-12-17-find-and-fix-actions-workflows-vulnerabilities-with-codeql-public-preview</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2024 20:22:20 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-17-find-and-fix-actions-workflows-vulnerabilities-with-codeql-public-preview</guid>
+
+					<description><![CDATA[<p>Find and fix Actions workflows vulnerabilities with CodeQL (Public Preview)</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-17-find-and-fix-actions-workflows-vulnerabilities-with-codeql-public-preview">Find and fix Actions workflows vulnerabilities with CodeQL (Public Preview)</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>You can now enable code scanning in your GitHub Actions workflow files. By opting-in to this feature, you can enhance the security of repositories using GitHub Actions.</p>
+<p>Actions analysis support includes a set of CodeQL queries developed by the <a href="https://securitylab.github.com/">GitHub Security Lab</a> to capture common misconfigurations of workflow files that can lead to security vulnerabilities. You can now easily run these queries as part of Code Scanning&#8217;s default or advanced setup and use Copilot Autofix to get remediation suggestions on your findings.</p>
+<p>You can opt-in to the public preview by selecting the &#8220;GitHub Actions&#8221; language via code scanning default setup, or by adding the <code>actions</code> language to your existing advanced setup. New repositories onboarding to default setup after today will start analyzing Actions workflows right away. Existing repositories will not be automatically opted-in as part of the public preview.</p>
+<p>Learn more about <a href="https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning">configuring default setup for code scanning</a>, <a href="https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions">securing your use of Actions</a>, and <a href="https://securitylab.github.com/codeql-wall-of-fame/">vulnerabilities identified with CodeQL</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-17-find-and-fix-actions-workflows-vulnerabilities-with-codeql-public-preview">Find and fix Actions workflows vulnerabilities with CodeQL (Public Preview)</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81697</post-id>	</item>
+		<item>
+		<title>Copilot Autofix can now be generated with the REST API (Public Preview)</title>
+		<link>https://github.blog/changelog/2024-12-17-copilot-autofix-can-now-be-generated-with-the-rest-api-public-preview</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2024 12:55:31 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-17-copilot-autofix-can-now-be-generated-with-the-rest-api-public-preview</guid>
+
+					<description><![CDATA[<p>Copilot Autofix can now be generated with the REST API [Public Preview]</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-17-copilot-autofix-can-now-be-generated-with-the-rest-api-public-preview">Copilot Autofix can now be generated with the REST API (Public Preview)</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><a href="https://docs.github.com/en/rest/code-scanning/code-scanning?apiVersion=2022-11-28">New REST API endpoints for code scanning</a> allow you to request the generation of Copilot Autofix for code scanning alerts. These endpoints also provide the Autofix generation status, along with metadata and AI-generated descriptions for the fixes, and enable you to apply Autofix to a branch. This functionality can be particularly useful for addressing security vulnerabilities programmatically and for tracking the status of alerts with Copilot Autofixes in your system.</p>
+<p>To generate Copilot Autofix, call the <code>POST /repos/{owner}/{repo}/code-scanning/alerts/{number}/autofix</code> endpoint.<br />
+Additionally, you can retrieve the Autofix and commit it by using the <code>GET /repos/{owner}/{repo}/code-scanning/alerts/{number}/autofix</code> endpoint followed by <code>POST /repos/{owner}/{repo}/code-scanning/alerts/{number}/autofix/commits</code>.</p>
+<p>For more information, see: <a href="https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning">About Copilot Autofix for CodeQL code scanning</a>. If you have feedback for Copilot Autofix for code scanning, please join the discussion <a href="https://github.com/orgs/community/discussions/111094">here</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-17-copilot-autofix-can-now-be-generated-with-the-rest-api-public-preview">Copilot Autofix can now be generated with the REST API (Public Preview)</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81687</post-id>	</item>
+		<item>
+		<title>Code security configurations now available at the enterprise level</title>
+		<link>https://github.blog/changelog/2024-12-12-code-security-configurations-now-available-at-the-enterprise-level</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 19:07:22 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-12-code-security-configurations-now-available-at-the-enterprise-level</guid>
+
+					<description><![CDATA[<p>Code security configurations now available at the enterprise level</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-12-code-security-configurations-now-available-at-the-enterprise-level">Code security configurations now available at the enterprise level</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>You can now create and manage code security settings at the enterprise level. This change reduces the need for repetitive setup at the organization level.</p>
+<p>Key updates:<br />
+&#8211; Apply configurations across all repositories in an enterprise, only to repos without existing configurations, or to newly created repos.<br />
+&#8211; Enforce settings across your enterprise, ensuring security policies are applied consistently.<br />
+&#8211; Enterprise configurations will also appear on the organization-level page, giving you the flexibility to manage centrally but deploy locally. This also enables you to roll out configurations, organization by organization.</p>
+<p>Learn more about <a href="https://docs.github.com/enterprise-cloud@latest/admin/managing-code-security/securing-your-enterprise/about-security-configurations">enterprise-level code security configurations</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-12-code-security-configurations-now-available-at-the-enterprise-level">Code security configurations now available at the enterprise level</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81654</post-id>	</item>
+		<item>
+		<title>Notice of breaking changes: Security manager REST API will be retired and replaced with the organization roles REST API</title>
+		<link>https://github.blog/changelog/2024-12-10-notice-of-breaking-changes-security-manager-rest-api-will-be-retired-and-replaced-with-the-organization-roles-rest-api</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 10 Dec 2024 20:56:42 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-10-notice-of-breaking-changes-security-manager-rest-api-will-be-retired-and-replaced-with-the-organization-roles-rest-api</guid>
+
+					<description><![CDATA[<p>Notice of breaking changes: Security manager REST API will be retired and replaced with the organization roles REST API</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-10-notice-of-breaking-changes-security-manager-rest-api-will-be-retired-and-replaced-with-the-organization-roles-rest-api">Notice of breaking changes: Security manager REST API will be retired and replaced with the organization roles REST API</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>As part of our ongoing efforts to <a href="https://github.blog/changelog/2024-11-26-expanded-flexibility-and-control-for-managing-the-security-manager-role/">improve flexibility and control for managing the security manager role</a>, we are retiring the <strong><a href="https://docs.github.com/en/rest/orgs/security-managers?apiVersion=2022-11-28">security manager API</a></strong> and replacing it with the more robust <strong><a href="https://docs.github.com/en/rest/orgs/organization-roles">organization roles API</a></strong>, which provides expanded functionality for managing roles in an organization, including security managers.</p>
+<h3 id="endpoints-affected">Endpoints Affected<a href="#endpoints-affected" class="heading-link pl-2 text-italic text-bold" aria-label="Endpoints Affected"></a></h3>
+<p>The following security manager endpoints will be <strong>retired in 12 months</strong>:</p>
+<ul>
+<li><code>GET /orgs/{org}/security-managers/teams</code></li>
+<li><code>PUT /orgs/{org}/security-managers/teams/{team_slug}</code></li>
+<li><code>DELETE /orgs/{org}/security-managers/teams/{team_slug}</code></li>
+</ul>
+<p>After this period, these endpoints will no longer be available. Instead, you can use the <strong>organization roles API</strong> to perform the same actions and much more.</p>
+<h3 id="retirement-timeline">Retirement Timeline<a href="#retirement-timeline" class="heading-link pl-2 text-italic text-bold" aria-label="Retirement Timeline"></a></h3>
+<ul>
+<li><strong>GitHub.com</strong>: 2025-12-31</li>
+<li><strong>GitHub Enterprise Server</strong>: Version 3.20</li>
+</ul>
+<h3 id="replacements">Replacements<a href="#replacements" class="heading-link pl-2 text-italic text-bold" aria-label="Replacements"></a></h3>
+<p>The organization roles API offers enhanced capabilities for managing roles across an organization. Use the following endpoint as a replacement:</p>
+<ul>
+<li><code>GET /orgs/{org}/roles</code></li>
+<li><code>GET /orgs/{org}/roles/{role_id}/teams</code></li>
+<li><code>PUT /orgs/{org}/roles/{role_id}/teams/{team_slug}</code></li>
+<li><code>DELETE /orgs/{org}/roles/{role_id}/teams/{team_slug}</code></li>
+</ul>
+<p>You can start transitioning to the organization roles API today on GitHub.com. For GitHub Enterprise Server users, the organization roles API will support the security manager role starting in version 3.16.</p>
+<p><a href="https://docs.github.com/en/rest/orgs/organization-roles">Learn more about the organization roles API</a> and <a href="https://github.com/github-community/community/discussions/categories/code-security">send us your feedback</a></p>
+<p>The post <a href="https://github.blog/changelog/2024-12-10-notice-of-breaking-changes-security-manager-rest-api-will-be-retired-and-replaced-with-the-organization-roles-rest-api">Notice of breaking changes: Security manager REST API will be retired and replaced with the organization roles REST API</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81631</post-id>	</item>
+		<item>
+		<title>Reviewers can add a comment on push protection bypass requests for secret scanning</title>
+		<link>https://github.blog/changelog/2024-12-09-reviewers-can-add-a-comment-on-push-protection-bypass-requests-for-secret-scanning</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Mon, 09 Dec 2024 16:41:23 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-09-reviewers-can-add-a-comment-on-push-protection-bypass-requests-for-secret-scanning</guid>
+
+					<description><![CDATA[<p>Reviewers can add a comment on push protection bypass requests for secret scanning</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-09-reviewers-can-add-a-comment-on-push-protection-bypass-requests-for-secret-scanning">Reviewers can add a comment on push protection bypass requests for secret scanning</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Reviewers can now add comments to <a href="https://github.blog/changelog/2024-10-23-bypass-controls-for-push-protection-are-generally-available/">push protection bypass requests</a> in secret scanning. These comments help provide context, explaining the reasoning behind approving or denying a request. Requesters gain clarity on why their request was denied, and other reviewers can better understand why a request was approved or denied.</p>
+<p>The comment is included in the response email sent to the requester, as well as in the timeline of the resulting alert, the API, the audit log, and webhook responses.</p>
+<p><img decoding="async" src="https://github.com/user-attachments/assets/34e2c7f7-d9c6-4e96-9154-7709c85a2259" alt="screenshot of an alert that has bypassed push protection, with a reviewer comment in the timeline" /></p>
+<p>Learn more about how to secure your repositories with <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-secret-scanning">secret scanning</a> and <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/about-delegated-bypass-for-push-protection">push protection bypass controls</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-09-reviewers-can-add-a-comment-on-push-protection-bypass-requests-for-secret-scanning">Reviewers can add a comment on push protection bypass requests for secret scanning</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81591</post-id>	</item>
+		<item>
+		<title>Enhanced CodeQL pull request alerts report</title>
+		<link>https://github.blog/changelog/2024-12-09-enhanced-codeql-pull-request-alerts-report</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Mon, 09 Dec 2024 16:33:26 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-09-enhanced-codeql-pull-request-alerts-report</guid>
+
+					<description><![CDATA[<p>Enhanced CodeQL pull request alerts report</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-09-enhanced-codeql-pull-request-alerts-report">Enhanced CodeQL pull request alerts report</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-metrics-for-pull-request-alerts">The metrics overview for CodeQL pull request alerts</a> now includes enhanced tracking and reporting mechanisms, resulting in greater accuracy and more CodeQL pull request alerts and Copilot Autofixes displayed on the dashboard.</p>
+<p>These changes retroactively affect the dashboard numbers, allowing you to effectively monitor your organization’s security posture.</p>
+<p>With these insights, you can proactively identify and address security risks before they reach your default branch. The metrics overview for CodeQL pull request alerts helps you understand how effectively CodeQL prevents vulnerabilities in your organization. You can use these metrics to easily identify the repositories where action is needed to mitigate security risks.</p>
+<p>The change is now generally available on GitHub Enterprise Cloud.</p>
+<p>Learn more about <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/about-security-overview">security overview</a> and <a href="https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning">code scanning</a>.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-09-enhanced-codeql-pull-request-alerts-report">Enhanced CodeQL pull request alerts report</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81590</post-id>	</item>
+		<item>
+		<title>The latest GitHub and GitHub Copilot SOC reports are now available</title>
+		<link>https://github.blog/changelog/2024-12-06-the-latest-github-and-github-copilot-soc-reports-are-now-available</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Fri, 06 Dec 2024 16:43:51 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2024-12-06-the-latest-github-and-github-copilot-soc-reports-are-now-available</guid>
+
+					<description><![CDATA[<p>The latest GitHub and GitHub Copilot SOC reports are now available</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-06-the-latest-github-and-github-copilot-soc-reports-are-now-available">The latest GitHub and GitHub Copilot SOC reports are now available</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>We are pleased to announce that our most recent SOC reports (1, 2, and 3) are available now and include <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud">GitHub Enterprise Cloud</a> for github.com with all new regions like the <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/data-residency/about-github-enterprise-cloud-with-data-residency">EU</a>, as well as <a href="https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot">Copilot Business and Enterprise</a>. These reports are applicable for the 6-month period April 1, 2024 to September 30, 2024 and are available on the <a href="https://ghec.github.trust.page/">GitHub Enterprise Trust Center</a> for our customers.</p>
+<p>This represents a significant milestone for GitHub and our customers for multiple reasons:<br />
+&#8211; Copilot Business and Enterprise are now gaining coverage of control operating effectiveness over the period represented by a Type II report (as opposed to the point-in-time reports represented by the previous Type I reports issued Spring 2024)<br />
+&#8211; Coverage for Enterprises hosted in either dotcom or the newly launched EU region.<br />
+&#8211; Future regions launched for GitHub Enterprise Cloud will also be compliant.</p>
+<p>These efforts and the culminating SOC 2 Type II reports represent GitHub’s ongoing commitment to provide secure products to our customers, which continues to provide developers the assurance to build software better, together.</p>
+<p>Looking forward, bridge letters will be coming mid-January 2025 for the gap period representing October through December 2024. Additionally, the next round of SOC reports covering October 1, 2024 to March 31, 2025 will be available to customers in June 2025.</p>
+<p>The post <a href="https://github.blog/changelog/2024-12-06-the-latest-github-and-github-copilot-soc-reports-are-now-available">The latest GitHub and GitHub Copilot SOC reports are now available</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">81573</post-id>	</item>
+	</channel>
+</rss>

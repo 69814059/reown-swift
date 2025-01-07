@@ -1,0 +1,73 @@
+<svg width="476" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 476 600">
+<rect width="476" height="600" x="0" y="0" fill="var(--active-bg)"></rect>
+<path d="M65 540.5L466 540.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 465.5L466 465.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 391.5L466 391.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 317.5L466 317.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 243.5L466 243.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 168.5L466 168.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 94.5L466 94.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 20.5L466 20.5" fill="transparent" stroke="var(--transparent-fg)" stroke-opacity="0.25" stroke-dasharray="1" class="zr3-cls-0"></path>
+<path d="M65 540.5L466 540.5" fill="transparent" stroke="#6E7079" stroke-linecap="round" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="26" transform="translate(265.5 555)" fill="#6E7079">Dec 19, 2024</text>
+<path d="M83.5 540L83.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M133.5 540L133.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M184.5 540L184.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M235.5 540L235.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M285.5 540L285.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M336.5 540L336.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M386.5 540L386.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<path d="M437.5 540L437.5 545" fill="transparent" stroke="#6E7079" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 540)" fill="#6E7079">0 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 465.7143)" fill="#6E7079">0 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 391.4286)" fill="#6E7079">0 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 317.1429)" fill="#6E7079">0 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 242.8571)" fill="#6E7079">0 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 168.5714)" fill="#6E7079">0.01 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 94.2857)" fill="#6E7079">0.01 MvB</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:sans-serif;" xml:space="preserve" transform="translate(57 20)" fill="#6E7079">0.01 MvB</text>
+<path d="M-18.7634 0l37.5269 0l0 12l-37.5269 0Z" transform="translate(83.1966 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px sans-serif" y="6" transform="translate(83.1966 560)" fill="#6E7079">02:30</text>
+<path d="M-18.7634 0l37.5269 0l0 12l-37.5269 0Z" transform="translate(133.7429 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px sans-serif" y="6" transform="translate(133.7429 560)" fill="#6E7079">02:45</text>
+<path d="M-18.7634 0l37.5269 0l0 12l-37.5269 0Z" transform="translate(234.8353 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px sans-serif" y="6" transform="translate(234.8353 560)" fill="#6E7079">03:15</text>
+<path d="M-18.7634 0l37.5269 0l0 12l-37.5269 0Z" transform="translate(285.3815 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px sans-serif" y="6" transform="translate(285.3815 560)" fill="#6E7079">03:30</text>
+<path d="M-18.7634 0l37.5269 0l0 12l-37.5269 0Z" transform="translate(335.9277 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px sans-serif" y="6" transform="translate(335.9277 560)" fill="#6E7079">03:45</text>
+<path d="M-18.7634 0l37.5269 0l0 12l-37.5269 0Z" transform="translate(437.0202 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px sans-serif" y="6" transform="translate(437.0202 560)" fill="#6E7079">04:15</text>
+<path d="M-20.3457 0l40.6914 0l0 12l-40.6914 0Z" transform="translate(184.2891 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;font-weight:bold;" y="6" transform="translate(184.2891 560)" fill="#6E7079">03:00</text>
+<path d="M-20.3457 0l40.6914 0l0 12l-40.6914 0Z" transform="translate(386.4739 560)" fill="transparent" class="zr3-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;font-weight:bold;" y="6" transform="translate(386.4739 560)" fill="#6E7079">04:00</text>
+<g clip-path="url(#zr3-c0)">
+<path d="M65 540L68.3698 540L71.6833 540L75.1092 540L78.479 540L81.7926 540L85.1623 540L88.5882 540L91.958 540L95.2716 540L98.6975 540L102.0672 540L105.437 540L108.7506 540L112.1765 540L115.5462 540L118.8598 540L122.2296 540L125.6555 540L129.0252 540L132.3388 508.9486L132.3388 540L135.7647 540L139.1345 540L142.5042 540L145.8178 540L149.2437 540L152.6134 540L155.9832 540L159.2968 540L162.7227 540L166.0924 540L169.406 540L172.8319 540L176.2017 540L179.5153 540L182.885 512.2172L182.885 540L186.3109 540L189.6807 540L193.0504 540L196.364 540L199.7899 540L203.1597 512.8114L203.1597 540L206.5294 540L209.843 540L213.2689 348.5657L213.2689 540L216.6387 540L220.0084 540L223.3782 540L226.7479 540L230.1176 540L233.4874 540L236.8571 353.0971L240.2269 353.0971L240.2269 540L243.5405 540L246.9664 540L250.3361 540L253.7059 540L257.0756 540L260.4454 256.5257L263.8151 256.5257L263.8151 540L267.1287 540L270.5546 69.6229L273.9244 69.6229L273.9244 540L277.2379 540L280.6077 540L284.0336 540L287.4034 540L290.7169 540L294.1429 540L297.5126 540L300.8824 540L304.196 540L307.6219 540L310.9916 354.88L310.9916 540L314.3614 540L317.6749 540L321.1008 512.2172L321.1008 540L324.4706 414.8286L324.4706 442.8343L327.7842 442.8343L327.7842 540L331.1539 540L334.5798 430.1314L334.5798 540L337.9496 540L341.2632 540L344.6891 540L348.0588 540L351.3724 540L354.7983 540L358.1681 540L361.5378 540L364.8514 512.2172L364.8514 540L368.2773 540L371.6471 540L375.0168 540L378.3304 352.28L378.3304 540L381.7563 540L385.126 540L388.4958 540L391.8094 540L395.2353 540L398.605 260.0914L398.605 540L401.9748 540L405.2884 540L408.7143 540L412.084 324.4971L412.084 540L415.4538 511.9943L418.8235 324.2743L418.8235 352.28L422.1933 352.28L422.1933 540L425.563 540L428.9328 540L432.2464 49.2686L432.2464 540L435.6723 540L439.042 540L442.4118 540L445.7253 354.9543L449.1513 319.1486L449.1513 540L452.521 540L455.8346 540L459.2605 540L462.6302 540L466 540L462.6302 540L459.2605 540L455.8346 540L452.521 540L449.1513 540L445.7253 540L442.4118 540L439.042 540L435.6723 540L432.2464 540L428.9328 540L425.563 540L422.1933 540L418.8235 540L415.4538 540L412.084 540L408.7143 540L405.2884 540L401.9748 540L398.605 540L395.2353 540L391.8094 540L388.4958 540L385.126 540L381.7563 540L378.3304 540L375.0168 540L371.6471 540L368.2773 540L364.8514 540L361.5378 540L358.1681 540L354.7983 540L351.3724 540L348.0588 540L344.6891 540L341.2632 540L337.9496 540L334.5798 540L331.1539 540L327.7842 540L324.4706 540L321.1008 540L317.6749 540L314.3614 540L310.9916 540L307.6219 540L304.196 540L300.8824 540L297.5126 540L294.1429 540L290.7169 540L287.4034 540L284.0336 540L280.6077 540L277.2379 540L273.9244 540L270.5546 540L267.1287 540L263.8151 540L260.4454 540L257.0756 540L253.7059 540L250.3361 540L246.9664 540L243.5405 540L240.2269 540L236.8571 540L233.4874 540L230.1176 540L226.7479 540L223.3782 540L220.0084 540L216.6387 540L213.2689 540L209.843 540L206.5294 540L203.1597 540L199.7899 540L196.364 540L193.0504 540L189.6807 540L186.3109 540L182.885 540L179.5714 540L176.2017 540L172.8319 540L169.406 540L166.0924 540L162.7227 540L159.2968 540L155.9832 540L152.6134 540L149.2437 540L145.8178 540L142.5042 540L139.1345 540L135.7647 540L132.3388 540L129.0252 540L125.6555 540L122.2296 540L118.8598 540L115.5462 540L112.1765 540L108.7506 540L105.437 540L102.0672 540L98.6975 540L95.2716 540L91.958 540L88.5882 540L85.1623 540L81.7926 540L78.479 540L75.1092 540L71.6833 540L68.3698 540L65 540Z" fill="#D81B60" class="zr3-cls-2"></path>
+<path d="M65 540L68.3698 540L71.6833 540L75.1092 540L78.479 540L81.7926 540L85.1623 540L88.5882 540L91.958 540L95.2716 540L98.6975 540L102.0672 540L105.437 540L108.7506 540L112.1765 540L115.5462 540L118.8598 540L122.2296 540L125.6555 540L129.0252 540L132.3388 508.9486L132.3388 540L135.7647 540L139.1345 540L142.5042 540L145.8178 540L149.2437 540L152.6134 540L155.9832 540L159.2968 540L162.7227 540L166.0924 540L169.406 540L172.8319 540L176.2017 540L179.5153 540L182.885 512.2172L182.885 540L186.3109 540L189.6807 540L193.0504 540L196.364 540L199.7899 540L203.1597 512.8114L203.1597 540L206.5294 540L209.843 540L213.2689 348.5657L213.2689 540L216.6387 540L220.0084 540L223.3782 540L226.7479 540L230.1176 540L233.4874 540L236.8571 353.0971L240.2269 353.0971L240.2269 540L243.5405 540L246.9664 540L250.3361 540L253.7059 540L257.0756 540L260.4454 256.5257L263.8151 256.5257L263.8151 540L267.1287 540L270.5546 69.6229L273.9244 69.6229L273.9244 540L277.2379 540L280.6077 540L284.0336 540L287.4034 540L290.7169 540L294.1429 540L297.5126 540L300.8824 540L304.196 540L307.6219 540L310.9916 354.88L310.9916 540L314.3614 540L317.6749 540L321.1008 512.2172L321.1008 540L324.4706 414.8286L324.4706 442.8343L327.7842 442.8343L327.7842 540L331.1539 540L334.5798 430.1314L334.5798 540L337.9496 540L341.2632 540L344.6891 540L348.0588 540L351.3724 540L354.7983 540L358.1681 540L361.5378 540L364.8514 512.2172L364.8514 540L368.2773 540L371.6471 540L375.0168 540L378.3304 352.28L378.3304 540L381.7563 540L385.126 540L388.4958 540L391.8094 540L395.2353 540L398.605 260.0914L398.605 540L401.9748 540L405.2884 540L408.7143 540L412.084 324.4971L412.084 540L415.4538 511.9943L418.8235 324.2743L418.8235 352.28L422.1933 352.28L422.1933 540L425.563 540L428.9328 540L432.2464 49.2686L432.2464 540L435.6723 540L439.042 540L442.4118 540L445.7253 354.9543L449.1513 319.1486L449.1513 540L452.521 540L455.8346 540L459.2605 540L462.6302 540L466 540" fill="transparent" stroke="#D81B60" stroke-width="0" stroke-opacity="0" stroke-linejoin="bevel" class="zr3-cls-3"></path>
+</g>
+<defs >
+<clipPath id="zr3-c0">
+<path d="M64 19l403 0l0 522l-403 0Z" fill="#000" class="zr3-cls-1"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr3-cls-0:hover {
+pointer-events:none;
+}
+.zr3-cls-1:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr3-cls-2:hover {
+cursor:pointer;
+fill:rgba(237,29,105,1);
+}
+.zr3-cls-3:hover {
+cursor:pointer;
+}
+
+]]>
+
+</style>
+</svg>
